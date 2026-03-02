@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="light">
 <head>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
+
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
     <meta charset="UTF-8">
@@ -11,15 +13,24 @@
     <title>DevLinks</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     
 <div id="container">
+
     <div id="profile">
         <img src="../assets/avatar.png" alt="">
         <p> 
             @maykbrito
         </p>
     </div>
+
+<div id="switch" onclick="toggleMode()">
+    <button>
+    </button>
+    <span></span>
+</div>
+
 </div>
 <ul>
     <li>
@@ -36,7 +47,30 @@
     </li>
     
 </ul>
-    
+<div id="social-links">
+    <a href="https://github.com/maykbrito" target="-blank"></a>
+<ion-icon name="logo-github"></ion-icon>
 
+<a href="https://logo-instagram.com/maykbrito" target="-blank"></a>
+<ion-icon name="logo-instagram"></ion-icon>
+
+<a href="https://logo-YouTube.com/maykbrito" target="-blank"></a>
+<ion-icon name="logo-YouTube"></ion-icon>
+
+<a href="https://logo-linkedin.com/in/maykbrito" target="-blank"></a>
+<ion-icon name="logo-linkedin"></ion-icon>
+</div>
+
+<footer>
+  Feito com prazer por  <a href="https://rocketseat.com.br">
+  Rocketseat</a>
+</footer>
+
+</div>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<script src="./script.js"></script>
 </body>
 </html>
